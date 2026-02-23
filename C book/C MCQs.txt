@@ -1,0 +1,411 @@
+C PROGRAMMING – 100 MCQs WITH ANSWERS (TXT)
+
+C was developed by
+a) Dennis Ritchie b) Bjarne Stroustrup c) James Gosling d) Ken Thompson
+Ans: a
+
+C is a ______ language
+a) Procedural b) OOP c) Scripting d) Assembly
+Ans: a
+
+File extension of C program
+a) .cpp b) .class c) .c d) .exe
+Ans: c
+
+Entry point of C program
+a) start b) begin c) main d) first
+Ans: c
+
+Which is a valid header?
+a) #include<stdio.h> b) include<stdio.h> c) #include stdio.h d) #header
+Ans: a
+
+printf is defined in
+a) stdlib.h b) stdio.h c) string.h d) conio.h
+Ans: b
+
+Which is not a keyword?
+a) int b) char c) main d) float
+Ans: c
+
+Size of int (common systems)
+a)1 b)2 c)4 d)8
+Ans: c
+
+char uses how many bytes?
+a)1 b)2 c)4 d)8
+Ans: a
+
+Valid variable name
+a) 1name b) _age c) a b) for
+Ans: b
+
+Which is assignment operator
+a)== b)= c)=== d)=>
+Ans: b
+
+++a is
+a) post increment b) pre increment c) error d) none
+Ans: b
+
+a=5/2 gives
+a)2.5 b)2 c)3 d)5
+Ans: b
+
+Relational operators return
+a) character b) integer (0 or 1) c) float d) pointer
+Ans: b
+
+Logical AND is
+a)& b)&& c)| d)||
+Ans: b
+
+Bitwise AND is
+a)& b)&& c)|| d|
+Ans: a
+
+sizeof is
+a) operator b) function c) keyword d) none
+Ans: a
+
+Format specifier for float
+a)%d b)%f c)%c d)%u
+Ans: b
+
+Escape sequence for new line
+a)/n b)\n c)newline d)//n
+Ans: b
+
+if statement checks
+a) integer b) condition c) array d) void
+Ans: b
+
+Switch works with
+a) int
+b) char
+c) enum
+d) all of these
+Ans: d
+
+Loop that runs at least once
+a) for b) while c) do-while d) none
+Ans: c
+
+continue means
+a) exit loop b) skip iteration c) stop program d) reload loop
+Ans: b
+
+break exits
+a) loop b) switch c) both d) none
+Ans: c
+
+Array index starts from
+a)-1 b)0 c)1 d)any
+Ans: b
+
+String ends with
+a) space b) \n c) '\0' d) none
+Ans: c
+
+Which copies string
+a) strcpy b) strcmp c) strcat d) strlen
+Ans: a
+
+Which compares strings
+a) equals b) strcmp c) compare d) comp
+Ans: b
+
+strcmp returns
+a) char b) float c) int d) string
+Ans: c
+
+Pointer stores
+a) value b) variable c) address d) string
+Ans: c
+
+Address operator
+a)* b)# c)& d)$
+Ans: c
+
+*p gives
+a) pointer value b) address c) value at address d) error
+Ans: c
+
+int *p; p++ increases by
+a)1 byte b)2 bytes c)4 bytes d)8 bytes
+Ans: c
+
+malloc is declared in
+a) stdio.h b) string.h c) stdlib.h d) math.h
+Ans: c
+
+calloc initializes memory with
+a)-1 b)1 c)0 d)random
+Ans: c
+
+free is used to
+a) allocate memory
+b) release memory
+c) close file
+d) print output
+Ans: b
+
+Structure stores
+a) one type b) multiple types c) only int d) only char
+Ans: b
+
+Union size equals
+a) smallest member b) sum c) largest member d) random
+Ans: c
+
+FILE is a
+a) variable
+b) keyword
+c) data type
+d) structure
+Ans: d
+
+fopen returns
+a) int b) char c) FILE* d) void
+Ans: c
+
+"w" mode
+a) reads b) writes c) appends d) deletes file
+Ans: b
+
+"a" mode
+a) overwrite b) remove c) append d) error
+Ans: c
+
+fclose requires
+a) int b) FILE* c) char d) none
+Ans: b
+
+static variable default
+a) garbage b) 1 c) 0 d) -1
+Ans: c
+
+auto variable scope
+a) global b) block c) program d) static
+Ans: b
+
+extern keyword
+a) creates variable b) accesses global c) deletes variable d) none
+Ans: b
+
+register variable stored in
+a) RAM b) ROM c) CPU register d) disk
+Ans: c
+
+Preprocessor symbol
+a) $ b) # c) & d) %
+Ans: b
+
+Macro defined by
+a) #macro b) #include c) #define d) define
+Ans: c
+
+Recursion means
+a) function calls itself b) function calls main c) main calls others d) loop calling function
+Ans: a
+
+for(;;) means
+a) error b) no loop c) infinite loop d) nothing
+Ans: c
+
+scanf returns
+a) nothing b) number of inputs read c) 1 always d) -1
+Ans: b
+
+%p prints
+a) integer b) char c) address d) float
+Ans: c
+
+Character constant size
+a)1 byte b)2 bytes c)4 bytes d)0
+Ans: a
+
+Switch case requires
+a) variable b) constant c) float d) double
+Ans: b
+
+Ternary operator
+a)= b)? : c)|| d)&&
+Ans: b
+
+Assignment happens
+a) left to right b) right to left c) random d) none
+Ans: b
+
+#include <file> searches in
+a) user directory b) system directory c) both d) none
+Ans: b
+
+gets() is
+a) safe b) unsafe c) typecast d) loop
+Ans: b
+
+fgets()
+a) safe b) unsafe c) removes spaces d) error
+Ans: a
+
+strlen returns
+a) int b) char c) pointer d) float
+Ans: a
+
+pow is in
+a) math.h b) stdio.h c) string.h d) ctype.h
+Ans: a
+
+ASCII of 'a'
+a)65 b)97 c)48 d)120
+Ans: b
+
+#ifndef means
+a) if defined b) if not defined c) if equal d) none
+Ans: b
+
+Array name represents
+a) pointer b) integer c) char d) function
+Ans: a
+
+Dereference operator
+a)& b)* c)% d)#
+Ans: b
+
+Do-while ends with
+a) colon b) comma c) semicolon d) bracket
+Ans: c
+
+Local variables stored in
+a) heap b) stack c) text d) data
+Ans: b
+
+Global variables stored in
+a) stack b) heap c) data segment d) ROM
+Ans: c
+
+Heap memory allocated by
+a) OS b) user c) malloc/calloc d) compiler
+Ans: c
+
+Comments are removed by
+a) linker b) compiler c) preprocessor d) user
+Ans: c
+
+int a[2][3] is
+a) 2 elements b) 6 elements c) 5 elements d) none
+Ans: b
+
+Pointer to pointer
+a) *p b) p c) &p d) p
+Ans: b
+
+const int a = 5 means
+a) changeable b) not changeable c) string d) pointer
+Ans: b
+
+fopen failure returns
+a) -1 b) 0 c) NULL d) 1
+Ans: c
+
+scanf("%d",&a) stores
+a) string b) character c) integer d) double
+Ans: c
+
+Switch default is
+a) required b) optional c) error d) none
+Ans: b
+
+A function that does not return value
+a) null b) int c) void d) float
+Ans: c
+
+getchar returns
+a) int b) char c) string d) pointer
+Ans: a
+
+putchar prints
+a) string b) int c) one character d) array
+Ans: c
+
+int a[5]; a is
+a) pointer b) address of first element c) both d) none
+Ans: c
+
+strcat joins
+a) two chars b) two integers c) two strings d) two floats
+Ans: c
+
+Highest precedence
+a)! b)* c)+ d)=
+Ans: a
+
+sizeof returns
+a) int b) char c) float d) string
+Ans: a
+
+void* is
+a) type-safe pointer b) generic pointer c) null pointer d) invalid pointer
+Ans: b
+
+Continue used in
+a) loops only b) switch only c) both d) none
+Ans: a
+
+fgets stops reading on
+a) new line b) EOF c) max size d) all of these
+Ans: d
+
+sizeof("A")
+a)1 b)2 c)3 d)4
+Ans: b (includes '\0')
+
+fclose closes
+a) file b) memory c) program d) pointer
+Ans: a
+
+Function prototype ends with
+a) { } b) ) c) ; d) :
+Ans: c
+
+A pointer must be initialized with
+a) value b) address c) integer d) float
+Ans: b
+
+NULL means
+a) 0 address b) 1 address c) garbage d) error
+Ans: a
+
+Which is not loop control
+a) break b) continue c) return d) next
+Ans: d
+
+int is
+a) keyword b) function c) macro d) operator
+Ans: a
+
+Main returns
+a) anything b) float c) void or int d) char
+Ans: c
+
+strcat defined in
+a) stdio.h b) string.h c) stdlib.h d) memory.h
+Ans: b
+
+sprintf writes to
+a) file b) screen c) string d) disk
+Ans: c
+
+fflush(stdin) is
+a) valid in C standard? → No
+b) compiler extension
+Ans: b
+
+== compares
+a) values b) addresses c) types d) structures
+Ans: a
+
+10 % 3 =
+a)0 b)1 c)2 d)3
+Ans: c

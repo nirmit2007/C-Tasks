@@ -1,0 +1,141 @@
+C LANGUAGE – COMPLETE EXAM SUMMARY (MCQ ORIENTED)
+
+1. BASIC STRUCTURE
+- Execution starts from main()
+- #include → header files
+- ; ends statement
+- main() returns int
+
+2. DATA TYPES
+char – 1 byte
+int – 4 bytes
+float – 4 bytes
+double – 8 bytes
+sizeof() → size in bytes
+
+3. OPERATORS
+Arithmetic: + - * / %
+Relational: < > <= >= == !=
+Logical: && || !
+Assignment: =
+Increment/Decrement: ++ --
+
+NOTE: = is assignment, == is comparison
+
+4. CONTROL STATEMENTS
+Decision:
+- if, if-else
+- switch (no float, no conditions, needs break)
+
+Loops:
+- for
+- while
+- do-while (runs at least once)
+
+5. ARRAYS
+- Same type elements
+- Index starts from 0
+- Array name = base address
+- a++ ❌ , p++ ✔
+
+6. POINTERS (MOST IMPORTANT)
+- Pointer stores address
+- & → address
+- * → value
+
+int a = 10;
+int *p = &a;
+
+*p → 10
+p → address
+
+Rules:
+- sizeof(pointer) ≠ sizeof(value)
+- NULL pointer dereference → runtime error
+- Wild pointer → uninitialized pointer
+
+Pointer expressions:
+*p++ = *(p++)
+++*p = ++(*p)
+(*p)++
+
+printf with pointer side effects → UNDEFINED behavior
+
+7. FUNCTIONS
+Types:
+1. No argument, no return
+2. Argument, no return
+3. No argument, return
+4. Argument, return
+
+Call by value → value not changed
+Call by reference (pointer) → value changes
+
+8. FILE HANDLING
+FILE *fp;
+fp = fopen("a.txt","w");
+fprintf(fp,"Hello");
+fclose(fp);
+
+Modes:
+r  → read
+w  → write (overwrite)
+a  → append
+r+ → read + write
+w+ → read + write (new file)
+
+- fopen() returns FILE*
+- feof(fp) checks end of file
+- If file not found → fp == NULL
+
+9. DYNAMIC MEMORY
+malloc()  → memory, garbage value
+calloc()  → memory, zero value
+realloc() → resize memory
+free()    → release memory
+
+Using freed pointer → dangling pointer
+
+10. STRUCTURE
+struct student {
+  int id;
+  char name[20];
+};
+
+- User-defined data type
+- Access using dot (.)
+
+11. UNION
+- Shared memory
+- Size = largest member
+
+12. STORAGE CLASSES
+auto     → default
+register → fast, no address
+static   → value preserved
+extern   → global access
+
+13. PREPROCESSOR
+#define PI 3.14  (no semicolon)
+
+Macro trap:
+#define SQR(x) (x)*(x)
+
+14. COMMON ERRORS
+- Uninitialized variables → garbage
+- Dereferencing NULL → crash
+- Missing break in switch
+- Using multiple ++ in one statement
+
+15. MOST DANGEROUS TOPICS (EXAM)
+1. Pointers
+2. Macros
+3. Dynamic memory
+4. File handling
+5. Storage classes
+
+LAST-MINUTE RULES:
+- Pointer in function → value changes
+- w mode → overwrite file
+- Array index starts at 0
+- printf with side effects → risky

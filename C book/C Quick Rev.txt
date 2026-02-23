@@ -1,0 +1,230 @@
+C FULL QUICK REVISION (DETAILED TXT)
+
+C LANGUAGE INTRODUCTION
+C is a procedural, structured programming language developed by Dennis Ritchie.
+It is compiled, fast, and used for system-level coding.
+Programs start execution from the main() function.
+
+BASIC STRUCTURE OF C PROGRAM
+A program contains header files, main function, declarations, statements and return.
+Example:
+#include <stdio.h>
+int main() {
+printf("Hello");
+return 0;
+}
+
+DATA TYPES
+Basic types: int, float, double, char.
+int = 4 bytes, float = 4 bytes, double = 8 bytes, char = 1 byte.
+Qualifiers: short, long, unsigned, signed.
+
+VARIABLES AND CONSTANTS
+Variables store data that can change.
+Constants store fixed values and use the const keyword or #define.
+
+OPERATORS
+Arithmetic: + - * / %
+Relational: == != > < >= <=
+Logical: && || !
+Bitwise: & | ^ << >> ~
+Increment/Decrement: ++ --
+Assignment: = += -= *= /= %=
+Ternary: condition ? value1 : value2
+
+INPUT AND OUTPUT
+printf() displays values.
+scanf() takes input using format specifiers.
+& is required to pass address except for strings.
+
+CONTROL STATEMENTS
+if, else if, else to check conditions.
+switch is used for multiple constant choices.
+switch works with int, char, enum.
+Loops: for, while, do-while.
+do-while runs at least once.
+
+BREAK AND CONTINUE
+break immediately exits loop or switch.
+continue skips current iteration and moves to next loop cycle.
+
+ARRAYS
+Array stores multiple values of same type.
+Index starts from 0.
+Syntax: int a[5];
+Access: a[0], a[1], etc.
+
+STRINGS
+Strings are character arrays ending with '\0'.
+Stored as: char s[] = "hello";
+Common functions: strcpy, strcmp, strcat, strlen (in string.h).
+
+FUNCTIONS
+A function is a reusable block of code.
+It has return type, name, parameters.
+Call by value passes copy.
+Call by reference passes address using pointers.
+
+POINTERS
+Pointer is a variable that stores address of another variable.
+int a = 10;
+int *p = &a;
+*p gives value at address.
+Pointer arithmetic works based on data type size.
+
+DYNAMIC MEMORY ALLOCATION
+Uses stdlib.h
+malloc(size) → uninitialized memory
+calloc(n, size) → initialized to 0
+realloc(ptr, new_size) → resize memory
+free(ptr) → release memory
+Always free memory to avoid leaks.
+
+STRUCTURES
+User-defined datatype storing different types in one unit.
+struct student { int age; char name[20]; };
+Each member has separate memory.
+
+UNIONS
+Union stores different members in same memory.
+Only one member is valid at a time.
+Size = largest member.
+
+FILE HANDLING
+File pointer: FILE *fp;
+fopen() opens a file.
+fclose() closes file.
+fprintf, fscanf for formatted reading/writing.
+Modes: r, w, a, r+, w+, a+
+
+STORAGE CLASSES
+auto: default for local variables.
+static: retains value throughout program.
+extern: accesses global variable from another file.
+register: stores variable in CPU register.
+
+TYPE CONVERSION
+Implicit: automatic
+Explicit: (float)a
+Used to convert data types.
+
+OPERATOR PRECEDENCE
+()
+++, --
+*, /, %
++, -
+<, <=, >, >=
+==, !=
+&&
+||
+=
+
+RECURSION
+Function calling itself.
+Must have base case to avoid infinite recursion.
+
+ENUM
+Used to define set of named integer constants.
+enum days {sun, mon, tue};
+Values start from 0.
+
+MACROS
+Created using #define.
+Performs text substitution before compilation.
+Example: #define PI 3.14
+
+PREPROCESSOR DIRECTIVES
+#include, #define, #undef, #ifdef, #ifndef.
+Processed before compilation.
+
+POINTER AND ARRAY RELATION
+a[i] is same as *(a+i).
+Array name acts like pointer to first element.
+
+STRING INPUT METHODS
+gets() is unsafe, use fgets().
+scanf("%s", str) stops at space.
+fgets reads entire line.
+
+MEMORY LAYOUT OF C PROGRAM
+Text segment: code
+Data segment: global/static values
+Stack: local variables
+Heap: dynamic memory
+
+TYPEDEF
+Used to give new name to datatypes.
+typedef int number;
+number a = 10;
+
+BITWISE OPERATIONS
+& AND
+| OR
+^ XOR
+~ NOT
+<< left shift
+
+right shift
+Left shift multiplies by 2.
+Right shift divides by 2.
+
+POINTER TO POINTER
+int **pp;
+Stores address of a pointer.
+
+VOID POINTER
+void *p can store address of any type.
+Must be typecasted before dereferencing.
+
+CONSTANT POINTERS
+int *const p = &a; // pointer constant
+const int *p = &a; // value constant
+Both constant: const int *const p;
+
+MULTI-DIMENSIONAL ARRAY
+int a[3][3];
+Matrix-like storage.
+
+ARRAY TO FUNCTION PASSING
+Arrays pass by pointer.
+void fun(int a[]) = void fun(int *a)
+
+SWITCH RULES
+case values must be constant.
+break is optional but recommended.
+
+DO-WHILE SPECIAL
+Runs once even if condition is false.
+Syntax ends with semicolon.
+
+FOR LOOP SPECIAL
+for(;;) creates infinite loop.
+Multiple expressions allowed in for().
+
+RETURN STATEMENT
+Stops function execution and returns value.
+
+COMMON ERRORS
+Missing semicolon
+Type mismatch
+Array out-of-range
+Uninitialized pointer
+Forgetting & in scanf
+Infinite loops
+
+HEADER FILE SUMMARY
+stdio.h → printf, scanf
+stdlib.h → malloc, free, atoi
+string.h → strcpy, strcmp
+math.h → pow, sqrt
+ctype.h → isalpha, isdigit
+
+IMPORTANT FORMAT SPECIFIERS
+%d int
+%f float
+%lf double
+%c char
+%s string
+%p pointer address
+%x hex
+%u unsigned int
