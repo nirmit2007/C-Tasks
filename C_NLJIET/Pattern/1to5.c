@@ -9,10 +9,6 @@ int main()
 
     for(i = 1; i <= row; i++)        
     {
-        for(k=1;k<=row;k++)
-        {
-            printf(" ");
-        }
         for(j = i; j <=row; j++)      
         {
             printf(" %d",j);
