@@ -9,7 +9,7 @@ int main()
 
     for(i = row; i >= 1; i--)        
     {
-        for(k=5-i;;k++)
+        for(k=5-i;k>=1;k++)
         {
             printf(" ");
         }
